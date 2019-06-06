@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+body { margin: 0px; padding: 0px; font: 14px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;  background-color:#373737;}
+div.container {width: 100%; height: 100%; position: absolute;}
+div.container div#map { width: 100%; height: 100%; position:relative; z-index:0;}
+div.wrapper {
+	width:100%;
+	height:350px;
+	margin:0 auto;
+	position: absolute;
+	z-index:100;
+	display: block;
+	background-color:rgba(55, 55, 55, 0.9);
+	bottom:0;
+	}
+.form-registo{  
+  margin: 30px auto;
+  width: 300px;
+  font-weight: 300;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+  }
+.registar p {
+  margin: 0 0 10px;
+}
+input, button {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input[type=text], input[type=password] {
+  text-align:center;
+  padding: 0 10px;
+  width: 300px;
+  height: 40px;
+  color: #bbb;
+  text-shadow: 1px 1px 1px black;
+  background: rgba(0, 0, 0, 0.16);
+  border: 0;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+}
+ul {
+  list-style: none;
+  padding-left:0;
+}
+li:first-child {
+  border-left-width: 1px;
+  border-left-color: #212425;
+  border-radius: 5px 0 0 5px;
+  float:left;
+}
+li:last-child {
+  border-right-width: 1px;
+  border-right-color: #212425;
+  border-radius: 0 5px 5px 0;
+}
+.registar-button, .cancel-button{
+  width:150px;
+  float: left;
+  position: relative;
+  padding:0 50px;
+  margin: 0 0 4px;
+  height: 44px;
+  color: #ccc;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid #232428;
+  border-bottom-color: #1f2326;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
+  -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 2px #262a2e, 0 3px #1f2326, 0 4px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 2px #262a2e, 0 3px #1f2326, 0 4px 3px rgba(0, 0, 0, 0.2);}
+.cancel-button{
+	  float:none;}
+.alerta_erro{
+	  	width:100%;
+	  	height:60px;
+		position: absolute;
+		z-index:100;
+		display: block;
+		top:20px;}
+.alerta_erro p{
+		width:300px;
+		margin: 10px auto;
+		background-color:rgba(255,0,0,0.5);
+		border:1px solid #F00;
+		text-align:center;}
+.InfoWindowContent{
+	text-align:center;}
+.footer{
+	font-size:9px;}
